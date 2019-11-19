@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11274C581FE74DA800653891 /* URLSessionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 11274C561FE74DA700653891 /* URLSessionVC.m */; };
+		11274C591FE74DA800653891 /* URLSessionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11274C571FE74DA800653891 /* URLSessionVC.xib */; };
+		1198527B20AF0130001752C3 /* EOCURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 1198527A20AF0130001752C3 /* EOCURLProtocol.m */; };
+		1198527F20AF0CAD001752C3 /* CFNetworkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1198527D20AF0CAD001752C3 /* CFNetworkVC.m */; };
+		1198528020AF0CAD001752C3 /* CFNetworkVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1198527E20AF0CAD001752C3 /* CFNetworkVC.xib */; };
+		11F28D811FE7F87D00F236C3 /* libNetTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11F28D801FE7F87D00F236C3 /* libNetTest.a */; };
+		CD1EE1A31EED44C600F4AC09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1EE1A21EED44C600F4AC09 /* main.m */; };
+		CD1EE1A61EED44C600F4AC09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1EE1A51EED44C600F4AC09 /* AppDelegate.m */; };
+		CD1EE1A91EED44C600F4AC09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1EE1A81EED44C600F4AC09 /* ViewController.m */; };
+		CD1EE1AC1EED44C600F4AC09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1EE1AA1EED44C600F4AC09 /* Main.storyboard */; };
+		CD1EE1AE1EED44C600F4AC09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1EE1AD1EED44C600F4AC09 /* Assets.xcassets */; };
+		CD1EE1B11EED44C600F4AC09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1EE1AF1EED44C600F4AC09 /* LaunchScreen.storyboard */; };
+		CD1EE1CB1EEFD26200F4AC09 /* EOCWebViewCtr.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1EE1C91EEFD26200F4AC09 /* EOCWebViewCtr.m */; };
+		CD1EE1CC1EEFD26200F4AC09 /* EOCWebViewCtr.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD1EE1CA1EEFD26200F4AC09 /* EOCWebViewCtr.xib */; };
+		CD1EE1CE1EEFD37700F4AC09 /* local.html in Resources */ = {isa = PBXBuildFile; fileRef = CD1EE1CD1EEFD37700F4AC09 /* local.html */; };
+		CD1EE1D31EEFD9B500F4AC09 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1EE1D21EEFD9B500F4AC09 /* 1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11274C551FE74DA700653891 /* URLSessionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLSessionVC.h; sourceTree = "<group>"; };
+		11274C561FE74DA700653891 /* URLSessionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLSessionVC.m; sourceTree = "<group>"; };
+		11274C571FE74DA800653891 /* URLSessionVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = URLSessionVC.xib; sourceTree = "<group>"; };
+		1198527920AF0130001752C3 /* EOCURLProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCURLProtocol.h; sourceTree = "<group>"; };
+		1198527A20AF0130001752C3 /* EOCURLProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCURLProtocol.m; sourceTree = "<group>"; };
+		1198527C20AF0CAD001752C3 /* CFNetworkVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFNetworkVC.h; sourceTree = "<group>"; };
+		1198527D20AF0CAD001752C3 /* CFNetworkVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFNetworkVC.m; sourceTree = "<group>"; };
+		1198527E20AF0CAD001752C3 /* CFNetworkVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CFNetworkVC.xib; sourceTree = "<group>"; };
+		11F28D801FE7F87D00F236C3 /* libNetTest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNetTest.a; sourceTree = "<group>"; };
+		11F28D821FE7F88500F236C3 /* NetTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetTest.h; sourceTree = "<group>"; };
+		CD1EE19E1EED44C600F4AC09 /* EOCURLProtocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EOCURLProtocol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1EE1A21EED44C600F4AC09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD1EE1A41EED44C600F4AC09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD1EE1A51EED44C600F4AC09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD1EE1A71EED44C600F4AC09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD1EE1A81EED44C600F4AC09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD1EE1AB1EED44C600F4AC09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD1EE1AD1EED44C600F4AC09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD1EE1B01EED44C600F4AC09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD1EE1B21EED44C600F4AC09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1EE1C81EEFD26200F4AC09 /* EOCWebViewCtr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCWebViewCtr.h; sourceTree = "<group>"; };
+		CD1EE1C91EEFD26200F4AC09 /* EOCWebViewCtr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCWebViewCtr.m; sourceTree = "<group>"; };
+		CD1EE1CA1EEFD26200F4AC09 /* EOCWebViewCtr.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EOCWebViewCtr.xib; sourceTree = "<group>"; };
+		CD1EE1CD1EEFD37700F4AC09 /* local.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = local.html; sourceTree = "<group>"; };
+		CD1EE1D21EEFD9B500F4AC09 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD1EE19B1EED44C600F4AC09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F28D811FE7F87D00F236C3 /* libNetTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD1EE1951EED44C600F4AC09 = {
+			isa = PBXGroup;
+			children = (
+				CD1EE1A01EED44C600F4AC09 /* EOCURLProtocol */,
+				CD1EE19F1EED44C600F4AC09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD1EE19F1EED44C600F4AC09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD1EE19E1EED44C600F4AC09 /* EOCURLProtocol.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD1EE1A01EED44C600F4AC09 /* EOCURLProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				CD1EE1A41EED44C600F4AC09 /* AppDelegate.h */,
+				CD1EE1A51EED44C600F4AC09 /* AppDelegate.m */,
+				CD1EE1A71EED44C600F4AC09 /* ViewController.h */,
+				CD1EE1A81EED44C600F4AC09 /* ViewController.m */,
+				1198527920AF0130001752C3 /* EOCURLProtocol.h */,
+				1198527A20AF0130001752C3 /* EOCURLProtocol.m */,
+				11274C551FE74DA700653891 /* URLSessionVC.h */,
+				11274C561FE74DA700653891 /* URLSessionVC.m */,
+				11274C571FE74DA800653891 /* URLSessionVC.xib */,
+				CD1EE1C81EEFD26200F4AC09 /* EOCWebViewCtr.h */,
+				CD1EE1C91EEFD26200F4AC09 /* EOCWebViewCtr.m */,
+				CD1EE1CA1EEFD26200F4AC09 /* EOCWebViewCtr.xib */,
+				1198527C20AF0CAD001752C3 /* CFNetworkVC.h */,
+				1198527D20AF0CAD001752C3 /* CFNetworkVC.m */,
+				1198527E20AF0CAD001752C3 /* CFNetworkVC.xib */,
+				CD1EE1AD1EED44C600F4AC09 /* Assets.xcassets */,
+				CD1EE1AF1EED44C600F4AC09 /* LaunchScreen.storyboard */,
+				CD1EE1B21EED44C600F4AC09 /* Info.plist */,
+				CD1EE1AA1EED44C600F4AC09 /* Main.storyboard */,
+				CD1EE1A11EED44C600F4AC09 /* Supporting Files */,
+			);
+			path = EOCURLProtocol;
+			sourceTree = "<group>";
+		};
+		CD1EE1A11EED44C600F4AC09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11F28D821FE7F88500F236C3 /* NetTest.h */,
+				11F28D801FE7F87D00F236C3 /* libNetTest.a */,
+				CD1EE1D21EEFD9B500F4AC09 /* 1.png */,
+				CD1EE1CD1EEFD37700F4AC09 /* local.html */,
+				CD1EE1A21EED44C600F4AC09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD1EE19D1EED44C600F4AC09 /* EOCURLProtocol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1EE1B51EED44C600F4AC09 /* Build configuration list for PBXNativeTarget "EOCURLProtocol" */;
+			buildPhases = (
+				CD1EE19A1EED44C600F4AC09 /* Sources */,
+				CD1EE19B1EED44C600F4AC09 /* Frameworks */,
+				CD1EE19C1EED44C600F4AC09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EOCURLProtocol;
+			productName = EOCURLProtocol;
+			productReference = CD1EE19E1EED44C600F4AC09 /* EOCURLProtocol.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD1EE1961EED44C600F4AC09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = EOC;
+				TargetAttributes = {
+					CD1EE19D1EED44C600F4AC09 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD1EE1991EED44C600F4AC09 /* Build configuration list for PBXProject "EOCURLProtocol" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD1EE1951EED44C600F4AC09;
+			productRefGroup = CD1EE19F1EED44C600F4AC09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD1EE19D1EED44C600F4AC09 /* EOCURLProtocol */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD1EE19C1EED44C600F4AC09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1EE1B11EED44C600F4AC09 /* LaunchScreen.storyboard in Resources */,
+				CD1EE1AE1EED44C600F4AC09 /* Assets.xcassets in Resources */,
+				CD1EE1AC1EED44C600F4AC09 /* Main.storyboard in Resources */,
+				CD1EE1D31EEFD9B500F4AC09 /* 1.png in Resources */,
+				1198528020AF0CAD001752C3 /* CFNetworkVC.xib in Resources */,
+				11274C591FE74DA800653891 /* URLSessionVC.xib in Resources */,
+				CD1EE1CE1EEFD37700F4AC09 /* local.html in Resources */,
+				CD1EE1CC1EEFD26200F4AC09 /* EOCWebViewCtr.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD1EE19A1EED44C600F4AC09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1EE1A91EED44C600F4AC09 /* ViewController.m in Sources */,
+				1198527B20AF0130001752C3 /* EOCURLProtocol.m in Sources */,
+				1198527F20AF0CAD001752C3 /* CFNetworkVC.m in Sources */,
+				CD1EE1CB1EEFD26200F4AC09 /* EOCWebViewCtr.m in Sources */,
+				CD1EE1A61EED44C600F4AC09 /* AppDelegate.m in Sources */,
+				CD1EE1A31EED44C600F4AC09 /* main.m in Sources */,
+				11274C581FE74DA800653891 /* URLSessionVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD1EE1AA1EED44C600F4AC09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1EE1AB1EED44C600F4AC09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD1EE1AF1EED44C600F4AC09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1EE1B01EED44C600F4AC09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD1EE1B31EED44C600F4AC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD1EE1B41EED44C600F4AC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD1EE1B61EED44C600F4AC09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EOCURLProtocol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EOCURLProtocol",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-----.EOCURLProtocol";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD1EE1B71EED44C600F4AC09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EOCURLProtocol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EOCURLProtocol",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-----.EOCURLProtocol";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD1EE1991EED44C600F4AC09 /* Build configuration list for PBXProject "EOCURLProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1EE1B31EED44C600F4AC09 /* Debug */,
+				CD1EE1B41EED44C600F4AC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1EE1B51EED44C600F4AC09 /* Build configuration list for PBXNativeTarget "EOCURLProtocol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1EE1B61EED44C600F4AC09 /* Debug */,
+				CD1EE1B71EED44C600F4AC09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD1EE1961EED44C600F4AC09 /* Project object */;
+}
